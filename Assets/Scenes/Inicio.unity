@@ -890,7 +890,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1601570144}
-        m_MethodName: playGame
+        m_MethodName: playGame1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
