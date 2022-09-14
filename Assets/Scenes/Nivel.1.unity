@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9040812}
   - component: {fileID: 9040811}
+  - component: {fileID: 9040813}
   - component: {fileID: 9040810}
   - component: {fileID: 9040809}
   m_Layer: 0
@@ -146,12 +147,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &9040810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -240,6 +241,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9040813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa0c150bce36db488b4b3d1b6001b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Salto: 6
 --- !u!1 &17572694
 GameObject:
   m_ObjectHideFlags: 0
