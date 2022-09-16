@@ -15,7 +15,7 @@ public class Muerte : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trampa"))
         {
-            Thread.Sleep(200);
+            Thread.Sleep(100);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }

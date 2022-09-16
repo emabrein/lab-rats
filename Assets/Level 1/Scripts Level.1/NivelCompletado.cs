@@ -15,7 +15,7 @@ public class NivelCompletado : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Llegada"))
         {
-            Thread.Sleep(200);
+            Thread.Sleep(100);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
     }
