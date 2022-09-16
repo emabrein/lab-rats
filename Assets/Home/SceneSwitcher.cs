@@ -5,28 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    public void playGame1()
+    public void showHistoria()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    public void exitGame1()
+    public void hideHistoria()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-    public void showHistoria()
+    public void playGame1()
     {
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
-    public void hideHistoria()
+    public void exitGame1()
     {
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
-    public void playGame2()
+    public void tryAgain()
     {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-    public void exitGame2()
+    public void backToMenu()
     {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
 }

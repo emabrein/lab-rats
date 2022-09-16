@@ -6,18 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Inicio.unity
+    path: Assets/Home/Inicio.unity
     guid: 5ab6c1bc7e215c84fae43d0335e126a8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel.1.unity
     guid: 50e7fdef6dc8486409f46d1c06c3c411
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 83fecf0ccdccd4d4d86707cb67268e0b
   - enabled: 1
-    path: Assets/Scenes/Historia.unity
+    path: Assets/Historia/Historia.unity
     guid: 60e53f81ce4c30946b40b2ca074dfb04
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel.2.unity
     guid: 1d8f65aff7ad0414e82e3cc89f3509f1
+  - enabled: 1
+    path: Assets/Level 1/Level.1.unity
+    guid: ab070ab8861ee3a44b84de115be037ae
+  - enabled: 1
+    path: Assets/Moriste.TryAgain/Moriste.TryAgain.unity
+    guid: b0e4638192290a84db6b6041533cdce3
+  - enabled: 1
+    path: Assets/Level 2/Level.2.unity
+    guid: ba05769e23fb19f4f80a6a0b5406e8d6
   m_configObjects: {}
