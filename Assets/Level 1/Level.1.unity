@@ -451,7 +451,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300004, guid: f8f1707b0bc6cff4096d839b7b4cc0ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1091,7 +1091,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300006, guid: f8f1707b0bc6cff4096d839b7b4cc0ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1538,8 +1538,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 8.17918, y: -0.021601379}
-      - {x: 7.8647265, y: 0.28162128}
+    - - {x: 8.181766, y: -0.14877152}
+      - {x: 8.179179, y: -0.09585822}
+      - {x: 8.001034, y: -0.049171567}
+      - {x: 7.9826617, y: 0.0842967}
+      - {x: 7.8365555, y: 0.09829736}
+      - {x: 7.831869, y: 0.18309557}
+      - {x: 7.7013664, y: 0.19871569}
+      - {x: 7.6951375, y: 0.27419567}
+      - {x: 7.546589, y: 0.27825892}
+      - {x: 7.548746, y: 0.41932166}
+      - {x: 7.4010925, y: 0.4170735}
       - {x: 7.4042773, y: 0.61853534}
       - {x: -8.329609, y: 0.61853534}
       - {x: -8.3633, y: 0.58484393}
@@ -1547,12 +1556,18 @@ PolygonCollider2D:
       - {x: -8.340839, y: 0.06824237}
       - {x: 6.943828, y: 0.06824237}
       - {x: 6.921367, y: -0.08898419}
-      - {x: 7.2358203, y: -0.50451154}
-      - {x: 7.9321094, y: -0.6168162}
-      - {x: 8.336407, y: -0.6168162}
-      - {x: 8.370098, y: -0.5494334}
-      - {x: 8.370098, y: -0.19005841}
-      - {x: 8.358868, y: -0.11144513}
+      - {x: 7.0770283, y: -0.10964441}
+      - {x: 7.131463, y: -0.27209675}
+      - {x: 7.265063, y: -0.24951375}
+      - {x: 7.242886, y: -0.44510603}
+      - {x: 7.9159675, y: -0.41392303}
+      - {x: 7.939175, y: -0.5945394}
+      - {x: 8.266198, y: -0.58142495}
+      - {x: 8.279877, y: -0.43860006}
+      - {x: 8.355965, y: -0.40092015}
+      - {x: 8.327742, y: -0.26524246}
+      - {x: 8.278237, y: -0.24203825}
+      - {x: 8.267007, y: -0.13372219}
 --- !u!212 &604378189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6074,9 +6089,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.5
   m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
