@@ -7,9 +7,9 @@ public class MOVIMIENTO : MonoBehaviour
     Rigidbody2D RB2D;
     SpriteRenderer SR;
     Vector3 direction;
-    float MovementSpeed = 5f;
+    float MovementSpeed = 1;
 
-     float movVel = 5f;
+    float movVel = 5f;
     float velX;
     float velY;
     bool vista = true;
@@ -77,4 +77,5 @@ public class MOVIMIENTO : MonoBehaviour
 
         transform.localScale = localScale;
     }
+  
 }

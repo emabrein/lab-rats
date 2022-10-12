@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Trampa
   - Llegada
+  - Collectible
   layers:
   - Default
   - TransparentFX
