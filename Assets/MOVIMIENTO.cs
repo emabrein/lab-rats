@@ -16,7 +16,7 @@ public class MOVIMIENTO : MonoBehaviour
     Rigidbody2D rigCuerpo;
 
     public float Salto = 6f;
-    bool enGround = false;
+    bool enGround = true;
 
     // Start is called before the first frame update
     void Start()
@@ -40,21 +40,21 @@ public class MOVIMIENTO : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space)||Input.GetKeyDown(KeyCode.UpArrow)||Input.GetKeyDown(KeyCode.W))
         {
-            if(enGround)
+            if (enGround)
             {
-                GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, Salto); 
+                GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, Salto);
+                enGround = false;
             }
+            
         }
     }
 
-    void OnTriggerEnter2D()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-    enGround = true;
-    }
-
-    void OnTriggerExit2D()
-    {
-    enGround = false;
+        if(collision.transform.tag == "ground")
+        {
+            enGround = true;
+        }
     }
 
     void LateUpdate()
